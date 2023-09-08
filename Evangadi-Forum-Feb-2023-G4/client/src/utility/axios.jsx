@@ -1,11 +1,12 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:4500", // api url
-  // baseURL: "https://clean-gloves-bee.cyclic.app", // api url
-  // baseURL: "https://vast-plum-scallop-slip.cyclic.app",
+	baseURL: "https://nice-pink-yak-shoe.cyclic.cloud/",
+	// baseURL: "http://localhost:4500", // api url
+	// baseURL: "https://clean-gloves-bee.cyclic.app", // api url
+	// baseURL: "https://vast-plum-scallop-slip.cyclic.app",
 
-  withCredentials: true,
+	withCredentials: true,
 });
 
 export default instance;
